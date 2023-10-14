@@ -3,11 +3,11 @@ package school.mjc.stage0.conditions.task2;
 public class GreatestNumberPrinter {
     public void printGreatest(int first, int second) {
         if (first > second) {
-            return first;
+            System.out.println(first);
         } else if (second > first) {
-            return second;
+            System.out.println(second);
         } else {
-            return first;
+            System.out.println(first);
         }
     }
 }
